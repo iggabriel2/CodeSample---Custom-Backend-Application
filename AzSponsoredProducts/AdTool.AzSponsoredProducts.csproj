@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;QA</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdTool.Entities\AdTool.Entities.csproj" />
+    <ProjectReference Include="..\AdTool.PaymentProcessor\AdTool.PaymentProcessor.csproj" />
+    <ProjectReference Include="..\Configuration.cs\Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DetectLanguage" Version="1.0.0" />
+    <PackageReference Include="Google.Ads.GoogleAds" Version="15.0.3" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.2" />
+    <PackageReference Include="TimeZoneConverter" Version="6.1.0" />
+  </ItemGroup>
+
+</Project>

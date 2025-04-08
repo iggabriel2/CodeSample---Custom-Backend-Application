@@ -1,0 +1,16 @@
+﻿using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Configuration
+{
+    public static class ExchangeInfo
+    {
+        public static string ExchangeAPI = "https://api.exchangeratesapi.io";
+        public static string ExchangeKey = AppSettings.ExchangeKey();
+    }
+}

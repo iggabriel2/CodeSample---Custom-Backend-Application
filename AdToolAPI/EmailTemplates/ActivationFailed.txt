@@ -1,0 +1,1 @@
+﻿Payment and Subscription Succeeded. Activation failed. Activate appuserid ||appUserId||
